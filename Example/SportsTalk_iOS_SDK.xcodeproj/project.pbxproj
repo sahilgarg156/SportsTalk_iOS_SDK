@@ -15,11 +15,11 @@
 		607FACE51AFB9204008FA782 /* SportsTalk_iOS_SDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTalk_iOS_SDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8E3D70173A84C46440B6338E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E3D70173A84C46440B6338E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		90D91378515E0607CA1A4421 /* Pods-SportsTalk_iOS_SDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsTalk_iOS_SDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-SportsTalk_iOS_SDK_Tests/Pods-SportsTalk_iOS_SDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		94F8EC2B927A1FFE586D2FA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		94F8EC2B927A1FFE586D2FA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9F9FCEF8EE1D3A2FBE911CB3 /* Pods-SportsTalk_iOS_SDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsTalk_iOS_SDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SportsTalk_iOS_SDK_Tests/Pods-SportsTalk_iOS_SDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A55B05A33E5B2B72367B5F03 /* SportsTalk_iOS_SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SportsTalk_iOS_SDK.podspec; path = ../SportsTalk_iOS_SDK.podspec; sourceTree = "<group>"; };
+		A55B05A33E5B2B72367B5F03 /* SportsTalk_iOS_SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SportsTalk_iOS_SDK.podspec; path = ../SportsTalk_iOS_SDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CD1A50DEEC65A171B7F46AF9 /* Pods_SportsTalk_iOS_SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsTalk_iOS_SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,6 @@
 				9F9FCEF8EE1D3A2FBE911CB3 /* Pods-SportsTalk_iOS_SDK_Tests.debug.xcconfig */,
 				90D91378515E0607CA1A4421 /* Pods-SportsTalk_iOS_SDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

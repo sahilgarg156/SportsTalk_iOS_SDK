@@ -1,0 +1,6 @@
+framework module Pods_SportsTalk_iOS_SDK_Tests {
+  umbrella header "Pods-SportsTalk_iOS_SDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

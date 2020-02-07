@@ -1,0 +1,16 @@
+PODS:
+  - SportsTalk_iOS_SDK (0.1.0)
+
+DEPENDENCIES:
+  - SportsTalk_iOS_SDK (from `../`)
+
+EXTERNAL SOURCES:
+  SportsTalk_iOS_SDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SportsTalk_iOS_SDK: 14aba7324911cc26b73aada341dee592b8abcdde
+
+PODFILE CHECKSUM: 179ffb6154cbe1c45f7e3a1ad114895eb2dd7463
+
+COCOAPODS: 1.8.4
