@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SportsTalk_iOS_SDK_Tests' do
+  pod 'SportsTalk_iOS_SDK', :path => '../'
+  
+  
+end
